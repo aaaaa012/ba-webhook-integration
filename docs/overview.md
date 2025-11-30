@@ -46,24 +46,6 @@ Whenever the status changes to one of the above, we **POST** a webhook payload t
 
 The diagram below visualises this flow:
 
-```mermaid
-flowchart TD
-    A[Partner calls Send API] --> B[Transaction Created]
-    B --> C{Determine Status}
-    C -->|Cancelled| D[Trigger Cancelled Webhook]
-    C -->|Compliance| E[Trigger Compliance Webhook]
-    C -->|Paid| F[Trigger Paid Webhook]
-    D --> G[POST payload to Partner]
-    E --> G
-    F --> G
-    G --> H[Partner returns 2xx]
-    H --> I[Retry if non‑2xx]
-```
+<img width="1506" height="1622" alt="flowchart" src="https://github.com/user-attachments/assets/f2ef1764-d746-4401-93bf-b5cfd432213d" />
 
----
 
-*Document prepared by the Business Analyst team.*
-
----
-
-*Document prepared by the Business Analyst team.*
