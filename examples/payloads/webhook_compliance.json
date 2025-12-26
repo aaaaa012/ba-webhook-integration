@@ -1,0 +1,19 @@
+{
+    "eventId": "evt_888e8400-e29b-41d4-a716-123456789000",
+    "eventType": "transaction.updated",
+    "timestamp": "2023-10-25T14:35:00Z",
+    "data": {
+        "transactionId": "TX_987654399",
+        "partnerReference": "ORD-2023-005",
+        "status": "COMPLIANCE",
+        "reason": "Internal Review Required",
+        "subReason": "PEP_MATCH",
+        "amount": {
+            "value": 15000.00,
+            "currency": "USD"
+        },
+        "metadata": {
+            "review_sla": "4 hours"
+        }
+    }
+}
