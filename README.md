@@ -154,7 +154,7 @@ As the BA, I produced and maintained the following artifacts (archived in this r
 
 *   **Idempotency is King:** Partners will inevitably receive duplicate webhooks (network jitters). Designing for idempotency (using `eventId` or `transactionId` as a unique key) was crucial.
 *   **Clear Error Codes Matter:** differentiating between a "Temporary Failure" (try again later) and "Permanent Failure" (bad request) in our retry logic saved days of debugging.
-*   **Stakeholder Empathy:** Partners have different tech stacks. Providing code samples in Python, Node, and Java helped speed up their integration time significantly.
+
 
 ---
 
